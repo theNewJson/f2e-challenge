@@ -8,7 +8,7 @@ interface Props {
     updateTask: Function
 }
 
-const Placeholder = () => <div>Press + button to create a new task!</div>
+const Placeholder = () => <div>Press + button to create a new task</div>
 
 const TaskList = (props: Props) => {
     const { tasks, removeTask, updateTask } = props
